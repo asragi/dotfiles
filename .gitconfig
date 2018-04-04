@@ -1,0 +1,16 @@
+[user]
+	name = asRagi
+	email = ragi-justaway@hotmail.co.jp
+[gui]
+	encoding = utf-8
+[color]
+	ui = true
+	diff = auto
+[alias]
+	graph = log --graph --date-order --all --pretty=format:'%h %Cred%d %Cgreen%ad %Cblue%cn %Creset%s' --date=short
+    dif = diff --color-words
+	diffc = diff --cached
+	s = status
+[core]
+	editor = vim
+	autocrlf = input
