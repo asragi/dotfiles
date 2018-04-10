@@ -11,6 +11,7 @@
     dif = diff --color-words
 	diffc = diff --cached
 	s = status
+    co = checkout
 [core]
 	editor = vim
 	autocrlf = input
