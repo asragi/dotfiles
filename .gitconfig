@@ -12,6 +12,7 @@
 	diffc = diff --cached
 	s = status
     co = checkout
+    rmmerged = branch --merged | grep -v master | xargs git branch -d
 [core]
 	editor = vim
 	autocrlf = input
